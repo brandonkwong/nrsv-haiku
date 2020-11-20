@@ -1,0 +1,22 @@
+{
+  "name": "nrsv-haiku",
+  "version": "1.0.0",
+  "description": "Expressing the NRSV Bible translation in haiku form.",
+  "license": "MIT",
+  "author": {
+    "name": "Brandon Kwong",
+    "email": "brandon@brandonkwong.com",
+    "url": "https://brandonkwong.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "invoke": "node index.js",
+    "test": "semistandard"
+  },
+  "dependencies": {
+    "syllable": "^4.1.0"
+  },
+  "devDependencies": {
+    "semistandard": "^16.0.0"
+  }
+}
