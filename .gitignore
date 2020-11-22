@@ -3,5 +3,8 @@ node_modules
 npm-debug.log
 yarn-error.log
 
+# Data
+data/*.json
+
 # OSX
 .DS_Store
