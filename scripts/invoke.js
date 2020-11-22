@@ -6,7 +6,7 @@ async function invoke (options = {}) {
     const verse = await getVerse(options);
     const haiku = await generateHaiku(verse, options);
 
-    console.log(haiku);
+    console.info(haiku);
   } catch (error) {
     console.error(error);
   }
