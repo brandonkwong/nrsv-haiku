@@ -4,7 +4,7 @@ const { generateHaiku } = require('../lib/haiku');
 async function invoke (options = {}) {
   try {
     const verse = await getVerse(options);
-    const haiku = generateHaiku(verse);
+    const haiku = await generateHaiku(verse, options);
 
     console.log(haiku);
   } catch (error) {
