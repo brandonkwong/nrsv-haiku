@@ -1,6 +1,6 @@
 # nrsv-haiku
 
-Expressing the NRSV Bible translation in haiku form.
+🍃 Expressing the NRSV Bible translation in haiku form.
 
 >The NRSV stands out among the many translations because it is "as literal as possible" in adhering to the ancient texts and only "as free as necessary" to make the meaning clear in graceful, understandable English. It draws on newly available sources that increase our understanding of many previously obscure biblical passages. These sources include new-found manuscripts, the Dead Sea Scrolls, other texts, inscriptions, and archaeological finds from the ancient Near East, and new understandings of Greek and Hebrew grammar.
 >
