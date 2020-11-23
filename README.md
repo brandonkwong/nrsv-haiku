@@ -45,7 +45,3 @@ yarn invoke --book gen --chapter 1 --verse 10
   }
 }
 ```
-
-At the moment, not all verses are able to transcribe into proper haiku form. Thus, when invoking a haiku from a specific verse, the following error may be thrown:
-
->Error: Text contains invalid pattern of syllables.
