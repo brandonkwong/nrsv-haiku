@@ -6,7 +6,7 @@ const { invoke } = require('./scripts/invoke');
 const { argv } = yargs(hideBin(process.argv));
 
 const defaultOptions = {
-  dataPath: 'data/nrsv.json'
+  data: 'nrsv.json'
 };
 
 // TODO: Add option aliases and errors
@@ -14,7 +14,7 @@ const options = {
   bookKey: argv.book,
   chapterKey: argv.chapter,
   verseKey: argv.verse,
-  dataPath: argv.dataPath || defaultOptions.dataPath
+  data: argv.data || defaultOptions.data
 };
 
 invoke(options);
