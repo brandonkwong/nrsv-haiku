@@ -28,10 +28,10 @@ yarn invoke
 
 ### Invoke Options
 
-By default, `yarn invoke` generates a haiku object from a random verse. The `--book`, `--chapter`, and/or `--verse` options may be used to invoke a specific verse; or a random verse of a specific book and/or chapter. The following is an example of a specific verse:
+By default, `yarn invoke` generates a haiku object from a random verse. The `--passage` option may be used to invoke a specific verse; or a random verse of a specific book and/or chapter. The following is an example of a specific verse:
 
 ```
-yarn invoke --book gen --chapter 1 --verse 10
+yarn invoke --passage 'Genesis 1:10'
 
 {
   id: '0ce484c45320d049b98b13dc7fbc621c',

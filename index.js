@@ -9,11 +9,8 @@ const defaultOptions = {
   data: 'nrsv.json'
 };
 
-// TODO: Add option aliases and errors
 const options = {
-  bookKey: argv.book,
-  chapterKey: argv.chapter,
-  verseKey: argv.verse,
+  passage: argv.passage,
   data: argv.data || defaultOptions.data
 };
 
